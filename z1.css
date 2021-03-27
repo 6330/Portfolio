@@ -60,7 +60,7 @@ body { font-family: 'Montserrat'; }
     .header__logo {
         padding-top: 20px;
         max-width: 120px;
-        height: 50px;    
+        height: 30px;    
     }
 }
 @media(max-width:400px)
@@ -82,7 +82,7 @@ body { font-family: 'Montserrat'; }
         justify-content: flex-end;
         height: 89px;
     }
-    .header__link { font-size:18px; }
+    .header__link { font-size:15px; }
     .header__logo {
         padding-left:10px;
         padding-top:10px;
