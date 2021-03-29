@@ -340,9 +340,18 @@ font-size: 19px;
 /* making the footer section sections responsive from 700px of screen width */
 @media(max-width:850px)
 {
-    .footer { margin-top:70px; }       
+    .footer { margin-top:70px; }
+    .footer__para {
+    padding-left: 120px;
+    }
 }
-  
+@media(max-width:800)
+{
+    .footer__para {
+    padding-left: 100px;
+    font-size: 13px;
+    }
+}
 @media(max-width:700px)
 {
     .contacts__heading { font-size: 30px; }
@@ -355,5 +364,8 @@ font-size: 19px;
 @media (max-width:450px)
 {
     .footer { width:438px }
+    padding-left: 55px;
+    font-size: 10px;
+    }
 }
 
